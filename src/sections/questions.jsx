@@ -15,7 +15,7 @@ export default function Questions() {
           Напишите нам, мы расскажем об услугах и
   скидках, запишем на консультацию и процедуры.
           </p>
-          <button  className='inline-block py-[6px] px-[15px] md:py-[12px] md:px-[30px] rounded-[10px] bg-[#1C2B50] text-white mb-[20px] md:pb-[40px] '>Заказать звонок</button>
+          <button  className='inline-block py-[6px] px-[15px] md:py-[12px] md:px-[30px] rounded-[10px] bg-[#1C2B50] text-white mb-[20px] md:mb-[40px] '>Заказать звонок</button>
     </Container>
   )
 }
