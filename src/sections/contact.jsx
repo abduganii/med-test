@@ -6,11 +6,11 @@ export default function Contact() {
     <div     data-aos="fade-zoom-in"
     data-aos-easing="ease-in-back"
     data-aos-delay="100"
-    data-aos-offset="0"  className='bg-[#DCEDFF] py-[150px]'> 
-        <Container className="flex gap-[10px] justify-between ">
-            <div data-aos="fade-right" data-aos-delay="200" className='w-full max-w-[656px]  '>
-                  <h3 className='text-[36px] leading-[42px] font-semibold'>Сеть многопрофильных клиник MEDION в Ташкенте</h3>
-                  <p className='text-[22px] leading-[32px]  mt-[23px]'>Medion — ведущая сеть клиник в Ташкенте, где забота о вашем
+    data-aos-offset="0"  className='bg-[#DCEDFF] py-[75px] md:py-[150px]'> 
+        <Container className="flex flex-wrap md:flex-nowrap gap-[10px] justify-between ">
+            <div data-aos="fade-right" data-aos-delay="200" className='w-full md:max-w-[656px]  '>
+                  <h3 className='text-[22px] leading-[32px] sm:text-[36px] sm:leading-[42px] font-semibold'>Сеть многопрофильных клиник MEDION в Ташкенте</h3>
+                  <p className='text-[16px] leading-[24px]  sm:text-[22px] sm:leading-[32px] mt-[23px]'>Medion — ведущая сеть клиник в Ташкенте, где забота о вашем
                       здоровье является приоритетом. <br />
                       Мы заслужили доверие тысяч пациентов благодаря высокому
 уровню диагностики на современном оборудовании,
@@ -21,7 +21,7 @@ export default function Contact() {
               </div>
               <div data-aos="fade-left" data-aos-delay="200" className='bg-white w-full max-w-[360px] rounded-[10px] p-[34px]'>
                   <p className='text-[25px] leading-[32px] font-semibold'>Есть вопросы?</p>
-                  <p className='text-[16px] w-full max-w-[250px] leading-[24px] pt-[12px] pb-[21px] '>
+                  <p className='text-[16px] w-full md:max-w-[250px] leading-[24px] pt-[12px] pb-[21px] '>
                   Напишите нам, мы расскажем об
                     услугах и скидках, запишем на
                     консультацию и процедуры.
